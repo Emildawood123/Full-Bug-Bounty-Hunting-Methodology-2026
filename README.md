@@ -73,6 +73,8 @@ chaos -d target.com -o subs_chaos.txt
 
 # github-subdomains — mines developer code for hidden endpoints
 github-subdomains -d target.com -t $GITHUB_TOKEN -o subs_github.txt
+# Get subdomains via varities of resources from 
+go to recon.rootxvishal.com
 ```
 
 ### Certificate Transparency (SSL)
