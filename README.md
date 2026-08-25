@@ -436,6 +436,8 @@ cat alive_subs.txt | gau --threads 200 > urls_gau.txt
 
 # gauplus — gau with improvements
 gauplus -t 200 -random-agent < alive_subs.txt > urls_gauplus.txt
+# get urls via varities of resources
+go to crawler.rootxvishal.com
 ```
 
 ### Active Crawling
