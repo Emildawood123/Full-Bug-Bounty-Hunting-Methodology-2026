@@ -81,6 +81,8 @@ go to https://ctl.shodan.io/api/v1/domain/target.com/hostnames
 subfaster -d target.com -o subs_subfaster.txt
 # crt coffinx
 https://crt.name/v1/search?apex=target.com
+# go to submap
+ https://submap.net/
 ```
 
 ### Certificate Transparency (SSL)
