@@ -75,6 +75,10 @@ chaos -d target.com -o subs_chaos.txt
 github-subdomains -d target.com -t $GITHUB_TOKEN -o subs_github.txt
 # Get subdomains via varities of resources from 
 go to recon.rootxvishal.com
+# Get subdomains new technique
+go to https://ctl.shodan.io/api/v1/domain/target.com/hostnames
+# subfaster
+subfaster -d target.com -o subs_subfaster.txt
 ```
 
 ### Certificate Transparency (SSL)
