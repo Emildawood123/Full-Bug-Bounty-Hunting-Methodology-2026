@@ -79,6 +79,8 @@ go to recon.rootxvishal.com
 go to https://ctl.shodan.io/api/v1/domain/target.com/hostnames
 # subfaster
 subfaster -d target.com -o subs_subfaster.txt
+# crt coffinx
+https://crt.name/v1/search?apex=target.com
 ```
 
 ### Certificate Transparency (SSL)
