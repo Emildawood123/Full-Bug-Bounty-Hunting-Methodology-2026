@@ -155,6 +155,11 @@ ffuf -u https://FUZZ-target.com -w $DNS_WORDLIST -mc 200,301,302,403
 
 # Prefix patterns (www-old, www-beta, www-test)
 ffuf -u https://FUZZwww.target.com -w $DNS_WORDLIST -mc 200,301,302,403
+# Orwa techniques
+ffuf -u https://admin-FUZZ.target.com -w $DNS_WORDLIST -mc 200,301,302,403
+ffuf -u https://FUZZ-admin.target.com -w $DNS_WORDLIST -mc 200,301,302,403
+ffuf -u https://adminFUZZ.target.com -w $DNS_WORDLIST -mc 200,301,302,403
+ffuf -u https://FUZZadmin.target.com -w $DNS_WORDLIST -mc 200,301,302,403
 ```
 
 ### Live Certificate Monitoring
